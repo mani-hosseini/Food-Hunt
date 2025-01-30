@@ -53,6 +53,7 @@ a {
     font-size: 18px;
     background-color: rgba(246, 95, 95, 1);
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .baner {
@@ -154,42 +155,49 @@ a {
     width: 79px;
     height: 79px;
 }
-.arrow{
+
+.arrow {
     position: absolute;
     top: 15%;
 }
-.head-img{
+
+.head-img {
     position: absolute;
     left: 35%;
     top: 42%;
 }
-.arrow-baner{
+
+.arrow-baner {
     position: absolute;
     right: 13px;
 }
-.arrow-baner2{
+
+.arrow-baner2 {
     position: absolute;
     left: 90%;
     bottom: 25%;
 }
+
 .btns span {
     color: rgba(255, 255, 255, 1);
     font-size: 17px;
     font-weight: 400;
 }
-.play-btn-div{
+
+.play-btn-div {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.play-btn-div img{
+.play-btn-div img {
     padding: 20px 18px 17px 17px;
     background-color: rgba(13, 13, 13, 1);
     box-shadow: 0px 15px 30px 0px rgba(223, 105, 81, 0.3);
     border-radius: 100%;
 }
-.tittle-main{
+
+.tittle-main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -198,18 +206,77 @@ a {
     margin-bottom: 65px;
     margin-top: 125px;
 }
-.head-tittle{
+
+.head-tittle {
     font-size: 48px;
     color: white;
 }
-.head-tittle span{
+
+.head-tittle span {
     color: #f65743;
 }
-.para-tittle{
+
+.para-tittle {
     text-align: center;
     width: 856px;
     opacity: 80%;
     color: white;
     font-weight: 400;
     font-size: 18px;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 310px;
+    height: 368px;
+    background: linear-gradient(179.69deg, rgba(255, 255, 255, 0) -31.53%, #F54748 303.75%);
+    border-radius: 20px;
+    padding: 24px;
+    position: relative;
+}
+
+.content-order {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-order {
+    position: absolute;
+    top: -120px;
+}
+
+.people {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 131px;
+}
+
+.order-tittle {
+    font-size: 24px;
+    color: #F65F5F;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.order p {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+}
+
+.people span {
+    color: white;
+    font-size: 18px;
+}
+.poss-btn{
+    position: absolute;
+    bottom: -5%;
 }
