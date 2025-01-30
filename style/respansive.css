@@ -84,4 +84,13 @@
         top: 80%;
         left: 77%;
     }
+    .tittle-main{
+        margin-top: 98px;
+    }
+    .head-tittle{
+        text-align: center;
+    }
+    .para-tittle{
+        width: 100%;
+    }
 }
