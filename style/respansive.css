@@ -156,4 +156,34 @@
     .icon1 {
         gap: 31px;
     }
+    .title-span {
+        width: auto;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 67px;
+        color: rgba(255, 255, 255, 1);
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .menu-item {
+        display: none;
+    }
+
+    .menu-title-u {
+        width: auto;
+    }
+
+    .title-ul ul {
+        gap: 5px;
+    }
+
+    .container-tittle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding-bottom: 8px;
+        padding-top: 120px;
+    }
 }
