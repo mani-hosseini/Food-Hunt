@@ -54,3 +54,98 @@ a {
     background-color: rgba(246, 95, 95, 1);
     padding: 10px 20px;
 }
+.baner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 87px;
+}
+.baner-left{
+    order: 1;
+}
+.baner-right {
+    order: 0;
+}
+
+.heading-baner {
+    color: white;
+    width: 529px;
+    font-size: 57px;
+    font-weight: bold;
+}
+
+.heading-baner span {
+    color: #f65743;
+}
+
+.heading-baner span:last-child {
+    color: #fdc54e;
+}
+
+.div {
+    margin-top: 37px;
+    margin-bottom: 27px;
+    padding-right: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.baner-para {
+    width: 516px;
+    color: white;
+    font-size: 23px;
+    font-family: "Montserrat", serif;
+    line-height: 32px;
+    margin-bottom: 26px;
+    letter-spacing: -2px;
+}
+
+.input {
+    position: relative;
+    margin-bottom: 29px;
+}
+
+.img-input1 {
+    position: absolute;
+    right: 92%;
+}
+
+.img-input2 {
+    position: absolute;
+    left: 78%;
+}
+
+.input-baner {
+    width: 99%;
+    height: 53px;
+    border-radius: 99px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0 50px;
+}
+
+.menu-btn {
+    border: none;
+    border-radius: 99px;
+    color: rgba(12, 13, 13, 1);
+    font-weight: 399;
+    font-size: 17px;
+    background-color: rgba(245, 95, 95, 1);
+    padding: 9px 20px;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btns span {
+    color: white;
+    font-size: 13px;
+}
+
+.btn-play img {
+    width: 79px;
+    height: 79px;
+}
