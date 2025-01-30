@@ -242,6 +242,13 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+}
+.img-poss{
+    position: absolute;
+    bottom: 0;
+    top: 100%;
+    right: -70px;
 }
 
 .img-order {
