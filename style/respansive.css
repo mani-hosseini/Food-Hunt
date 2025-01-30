@@ -55,7 +55,8 @@
     .baner-right {
         order: 2;
     }
-    .picture-gradient{
+
+    .picture-gradient {
         display: none;
     }
 
@@ -209,14 +210,29 @@
         width: 330px;
         height: 410px;
     }
-    .end-span1{
+
+    .end-span1 {
         font-size: 46px;
         line-height: 48px;
     }
-    .end-p{
+
+    .end-p {
         font-size: 18px;
         max-width: 350px;
         margin: 20px 0;
     }
 
+    .footer-item {
+        display: flex;
+        align-items: center;
+        justify-content: stretch;
+        gap: 80px;
+    }
+
+    .about-list-footer {
+        gap: 20px;
+    }
+    .footer-main{
+        margin-top: 174px;
+    }
 }

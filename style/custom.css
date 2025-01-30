@@ -10,9 +10,11 @@ li {
 a {
     text-decoration: none;
 }
-header{
+
+header {
     overflow: hidden;
 }
+
 .container-nav {
     display: flex;
     align-items: center;
@@ -162,12 +164,14 @@ header{
     position: absolute;
     top: 15%;
 }
+
 .picture-gradient {
     position: absolute;
     left: 58%;
     bottom: 20%;
     z-index: -2;
 }
+
 .head-img {
     position: absolute;
     left: 35%;
@@ -500,4 +504,117 @@ header{
 .end-text span:nth-child(1) {
     font-size: 10px;
 }
+
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+    gap: 90px;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-order {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-tittle {
+    color: rgba(246, 95, 95, 1);
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.footer-para {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    max-width: 300px;
+}
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.about-list-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-list-footer-span {
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(246, 95, 95, 1);
+}
+
+.about-list-footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-list-footer ul li a {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.about-list-footer-para {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 300px;
+}
+
+.inputbtn-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-footer {
+    border: none;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 15px 20px 15px 14px;
+    background-color: #252525;
+}
+
+.input-footer:focus {
+    outline: none;
+    border: none;
+    background-color: #252525;
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-footer {
+    background-color: rgba(246, 95, 95, 1);
+    padding: 15px 22px;
+    border: none;
+    border-radius: 100px;
+}
+
+.btn-footer:last-child {
+    align-self: flex-start;
+    gap: 25px;
+}
+
+.copy-footer {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
 
