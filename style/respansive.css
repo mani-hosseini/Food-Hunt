@@ -15,6 +15,7 @@
     .menu {
         display: none;
     }
+
     .baner {
         display: flex;
         flex-direction: column;
@@ -47,7 +48,7 @@
         left: 87%;
     }
 
-    .baner-left img {
+    .baner-left img:first-child {
         width: 100%;
     }
 
@@ -64,7 +65,25 @@
         display: flex;
         justify-content: flex-start;
     }
-    .arrow{
+
+    .arrow {
         display: none;
+    }
+
+    .arrow-baner {
+        height: 175px;
+        width: 60px;
+        bottom: 62%;
+        z-index: 1;
+    }
+
+    .arrow-baner2 {
+        width: 77px;
+        left: 85%;
+    }
+
+    .head-img {
+        top: 80%;
+        left: 77%;
     }
 }
