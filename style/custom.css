@@ -64,6 +64,7 @@ a {
 
 .baner-left {
     order: 1;
+    position: relative;
 }
 
 .baner-right {
@@ -152,3 +153,22 @@ a {
     width: 79px;
     height: 79px;
 }
+.arrow{
+    position: absolute;
+    top: 15%;
+}
+.head-img{
+    position: absolute;
+    left: 35%;
+    top: 42%;
+}
+.arrow-baner{
+    position: absolute;
+    right: 13px;
+}
+.arrow-baner2{
+    position: absolute;
+    left: 90%;
+    bottom: 25%;
+}
+
