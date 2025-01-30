@@ -1,3 +1,18 @@
 @media only screen and (max-width: 428px) {
+    .container {
+        padding: 0 24px;
+    }
 
+    .img-logo {
+        width: 97px;
+        height: 62px;
+    }
+
+    .menu-logo {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
 }
