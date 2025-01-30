@@ -55,6 +55,9 @@
     .baner-right {
         order: 2;
     }
+    .picture-gradient{
+        display: none;
+    }
 
     .baner-left {
         order: 1;

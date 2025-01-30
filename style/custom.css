@@ -10,7 +10,9 @@ li {
 a {
     text-decoration: none;
 }
-
+header{
+    overflow: hidden;
+}
 .container-nav {
     display: flex;
     align-items: center;
@@ -160,7 +162,12 @@ a {
     position: absolute;
     top: 15%;
 }
-
+.picture-gradient {
+    position: absolute;
+    left: 58%;
+    bottom: 20%;
+    z-index: -2;
+}
 .head-img {
     position: absolute;
     left: 35%;
