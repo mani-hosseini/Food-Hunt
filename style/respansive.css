@@ -156,6 +156,7 @@
     .icon1 {
         gap: 31px;
     }
+
     .title-span {
         width: auto;
         font-weight: 700;
@@ -186,4 +187,33 @@
         padding-bottom: 8px;
         padding-top: 120px;
     }
+
+    .picture-end {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 26px;
+    }
+
+    .picture-end-div {
+        align-self: flex-start;
+        order: 2;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .picture-end-img {
+        width: 330px;
+        height: 410px;
+    }
+    .end-span1{
+        font-size: 46px;
+        line-height: 48px;
+    }
+    .end-p{
+        font-size: 18px;
+        max-width: 350px;
+        margin: 20px 0;
+    }
+
 }

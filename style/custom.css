@@ -383,7 +383,8 @@ a {
     padding: 10px 20px;
     border: none;
 }
-.container-tittle{
+
+.container-tittle {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -391,7 +392,8 @@ a {
     padding-bottom: 108px;
     padding-top: 212px;
 }
-.title-span{
+
+.title-span {
     font-weight: 700;
     font-size: 48px;
     line-height: 67px;
@@ -399,14 +401,15 @@ a {
     max-width: 700px;
     text-align: center;
 }
-.title-ul ul{
+
+.title-ul ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
 }
 
-.title-ul ul li a{
+.title-ul ul li a {
     padding: 10px 20px;
     gap: 10px;
     opacity: 60%;
@@ -416,14 +419,78 @@ a {
     font-size: 18px;
     font-weight: 400;
 }
-.title-ul .onclick{
+
+.title-ul .onclick {
     background-color: rgba(246, 95, 95, 1);
     color: rgba(13, 13, 13, 1);
     border: 2px solid rgba(246, 95, 95, 1);
 }
-.title-ul li a:hover{
+
+.title-ul li a:hover {
     background-color: rgba(246, 95, 95, 1);
     color: rgba(13, 13, 13, 1);
     border: 2px solid rgba(246, 95, 95, 1);
     transition: all 0.5s;
 }
+
+.picture-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 118px;
+}
+
+.picture-end-div {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 47px;
+}
+
+.end-span1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 67px;
+    max-width: 650px;
+}
+
+.end-p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    max-width: 550px;
+}
+
+.end-box {
+    display: flex;
+    gap: 30px;
+}
+
+
+.btn1, .btn2 {
+    border-radius: 5px;
+    border: 1px solid #A6A6A6;
+    cursor: pointer;
+    width: 135px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: white;
+}
+
+
+.end-text {
+    display: flex;
+    color: #0D0D0D;
+    flex-direction: column;
+    align-items: start;
+}
+
+.end-text span:nth-child(1) {
+    font-size: 10px;
+}
+
