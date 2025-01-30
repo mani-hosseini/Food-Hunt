@@ -15,4 +15,54 @@
     .menu {
         display: none;
     }
+    .baner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading-baner {
+        font-size: 48px;
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .div {
+        padding-right: 0;
+        margin-top: 0;
+        margin-bottom: 28px;
+    }
+
+    .baner-para {
+        width: auto;
+        font-size: 20px;
+    }
+
+    .img-input1 {
+        top: 30%;
+        right: 90%;
+    }
+
+    .img-input2 {
+        top: 13%;
+        left: 87%;
+    }
+
+    .baner-left img {
+        width: 100%;
+    }
+
+    .baner-right {
+        order: 2;
+    }
+
+    .baner-left {
+        order: 1;
+        margin-bottom: 58px;
+    }
+
+    .line {
+        display: flex;
+        justify-content: flex-start;
+    }
+
 }
